@@ -1822,6 +1822,7 @@
     <Content Include="Views\Shared\_Notifications.cshtml" />
     <Content Include="Views\Customer\_CustomerAttributes.cshtml" />
     <Content Include="Views\Customer\_CustomerAttributes.Mobile.cshtml" />
+    <Content Include="Views\Catalog\CategoryTemplate.ProductsCustom.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />
