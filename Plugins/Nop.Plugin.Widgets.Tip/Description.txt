@@ -1,0 +1,8 @@
+﻿Group: Widgets
+FriendlyName: Tip
+SystemName: Widgets.Tip
+Version: 1.00
+SupportedVersions: 3.30
+Author: Henry
+DisplayOrder: 1
+FileName: Nop.Plugin.Widgets.Tip.dll
