@@ -59,5 +59,6 @@ UpgradeLog*.XML
 
 # To be ignore
 Information
-/WHTR.API/bin
-/Presentation/Nop.Web/Plugins/
+/Presentation/Nop.Web/Plugins
+/Presentation/Nop.Web/bin
+/Presentation/Nop.Web/Content/Images/Thumbs
