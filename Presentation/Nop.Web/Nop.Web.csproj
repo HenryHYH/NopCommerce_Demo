@@ -1823,6 +1823,10 @@
     <Content Include="Views\Customer\_CustomerAttributes.cshtml" />
     <Content Include="Views\Customer\_CustomerAttributes.Mobile.cshtml" />
     <Content Include="Views\Catalog\CategoryTemplate.ProductsCustom.cshtml" />
+    <Content Include="Views\Catalog\ProductTemplate.Custom.cshtml" />
+    <Content Include="Views\Shared\_Root.Custom.cshtml" />
+    <Content Include="Views\Shared\_ColumnsOne.Custom.cshtml" />
+    <Content Include="Views\Shared\_Root.Head.Custom.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />
