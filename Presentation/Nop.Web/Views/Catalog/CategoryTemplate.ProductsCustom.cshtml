@@ -1,6 +1,6 @@
 ﻿@model CategoryModel
 @{
-    Layout = "~/Views/Shared/_ColumnsTwo.cshtml";
+    Layout = "~/Views/Shared/_ColumnsOne.Custom.cshtml";
     Html.AddTitleParts(!String.IsNullOrEmpty(Model.MetaTitle) ? Model.MetaTitle : Model.Name);
     Html.AddMetaDescriptionParts(Model.MetaDescription);
     Html.AddMetaKeywordParts(Model.MetaKeywords);
@@ -20,7 +20,7 @@
 @using Nop.Web.Models.Catalog;
 @using Nop.Web.Extensions;
 @*category breadcrumb*@
-@if (Model.DisplayCategoryBreadcrumb)
+@*@if (Model.DisplayCategoryBreadcrumb)
 {
     <div class="breadcrumb">
         <ul>
@@ -46,10 +46,10 @@
         </ul>
     </div>
     @Html.Widget("categorydetails_after_breadcrumb")
-}
+}*@
 <div class="page category-page">
     <div class="page-title">
-        <h1>Custom @Model.Name</h1>
+        <h1>@Model.Name</h1>
     </div>
     <div class="page-body">
         @Html.Widget("categorydetails_top")
